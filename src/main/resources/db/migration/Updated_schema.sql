@@ -91,6 +91,14 @@ CREATE TABLE sc_user
     CONSTRAINT pk_sc_user PRIMARY KEY (id)
 );
 
+CREATE TABLE something
+(
+    id               BIGINT   NOT NULL,
+    craeteddate      datetime NULL,
+    lastmodifieddate datetime NULL,
+    CONSTRAINT pk_something PRIMARY KEY (id)
+);
+
 CREATE TABLE tpc_instructor
 (
     id      BIGINT       NOT NULL,
